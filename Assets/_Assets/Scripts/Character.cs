@@ -14,6 +14,8 @@ namespace Neocortex.Samples
         public Sprite CharacterImage => characterImage;
         public string Model => model;
 
+        public string SystemPrompt => systemPrompt;
+
         public string GetSelectedModel()
         {
             return !string.IsNullOrEmpty(model) ? model : string.Empty;
